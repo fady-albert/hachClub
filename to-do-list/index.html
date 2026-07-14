@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- ICON LINK -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" /></head>
+<body>
+    <div class="main-con" id="main">
+        <div class="custome">
+            <!-- to change between light and dark mode -->
+            <button id="customeBTN"><span id="btnText" class="material-symbols-outlined">light_mode</span></button>
+        </div>
+        <div class="con">
+            <div class="dataInput">
+                <form id="form">
+                    <h1>to do list</h1>
+                    <input type="text" placeholder="enter the task" id="taskInput">
+                    <p id="message">add your task</p>
+                    <button type="submit" id="taskBtn">add task</button>
+                </form>
+            </div>
+            <div class="dataOutput" id="output">
+                <!-- the tasks will be added here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- JS LINK -->
+     <script src="./main.js"></script>
+</body>
+</html>
